@@ -97,3 +97,6 @@ statusInfo 暂停原因
 tradeStatus 交易状态，交易暂停或暂停， 1 [N] = 正常 | 2 [H] = 暂停 | 3 [S] = 暂停
 
 updateDate 这个 是 tradeDate、trdtim1字段组合
+
+
+如有疑问，请联系飞机 @housezhuren
