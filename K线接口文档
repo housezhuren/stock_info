@@ -1,0 +1,80 @@
+示例： https://kline.pinkapi.net/kline/getKline?token={token}&code=ARCI&period=1D&startTime=1684252800000&endTime=1684684800000&market=US
+
+https://kline.pinkapi.net/kline/getKline?token={token}&code=0700&period=T1M&startTime=1686500580000&endTime=1686500580000&market=HK
+
+获取k线数据
+get请求
+url: https://kline.pinkapi.net/kline/getKline
+参数： token:必填
+code：股票代码
+
+period：1D:天,
+
+1W:周，
+
+1M:月，
+
+3M：三月，
+
+1Y：年，
+
+T1M:一分钟
+
+T5M:五分钟
+
+T10M:十分钟
+
+T30M: 三十分钟
+
+T1H:一小时
+startTime：开始的时间戳
+
+endTime：结束的时间戳
+
+market: 市场
+
+示例 https://kline.pinkapi.net/kline/getKline?token={token}&code={股票代码}&period={period}&startTime={startTime}&endTime={endTime}
+当period 是T1M、T5M、T10M、T30M、T1H 情况下startTime和endTime不能超过五天天
+
+返回的对象数据字段意思： DATE: TRADE_DATE 交易日期
+VWAP_VOL: Volume for calculation of Volume Weighted Average Price
+
+OPEN_PRC: 今日开盘价Today's opening price or value. The source of this field depends upon the market and instrument type.
+
+TRNOVR_UNS: The unscaled turnover value (summation of the value of all trades during the market day) for a particular instrument. Sum of Traded Vol*Price
+
+TRD_STATUS: Instrument Trading Status, which includes trade halts or suspensions.
+
+LOW_1: 今日最低价Today's lowest transaction value.
+
+NAVALUE: Previous day net asset value of mutual fund.
+
+TRDPRC_1: 最近第1个成交价Last trade price or value.
+
+HIGH_1: 今日最高价Today's highest transaction value.
+
+VWAP: Volume Weighted Average Price
+
+ASK: ASK价格 Latest Ask Price (price offering to sell)
+
+BID: BID价格 Latest Bid Price (price willing to buy)
+
+ACVOL_UNS: Unscaled accumulated number of shares, lots or contracts traded according to the market convention
+
+VWAP_OPEN: Today's first VWAP Price
+
+VWAP_HIGH: Today's highest VWAP price
+
+VWAP_LOW: Today's lowest VWAP price
+
+OPEN_BID: First bid price of the day
+
+BID_HIGH_1: Today's highest bid price
+
+BID_LOW_1: Today's lowest bid price
+
+OPEN_ASK: First ask price of the day
+
+ASK_HIGH_1: Today's highest ask price
+
+ASK_LOW_1: Today's lowest ask price
