@@ -1,0 +1,25 @@
+pid： 指数代码、股票代码
+
+lastNumeric：上一次价格、之前的值
+
+last： 最后一次更新价格
+
+bid：出价
+
+ask：询价
+
+high：最高价
+
+low：最低价
+
+pc：涨跌额
+
+pcp：涨跌幅，百分比
+
+time：时间
+
+imestamp：时间戳
+
+name：名称
+
+nameCn：中文名称
