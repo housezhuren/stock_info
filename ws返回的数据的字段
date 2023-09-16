@@ -1,0 +1,101 @@
+链接： wss://ws.pinkapi.net/ws/{token}
+
+name 完整或缩写的文本工具名称（股票名称）。
+
+timact 更新记录中某个或多个字段的时间，最好基于源提要时间。 哪个字段导致此时间戳更新取决于仪器。
+
+trdprc1 最后交易价格或价值。（最新价）
+
+trdprc2 之前的最后倒数第二笔交易价格或价值。
+
+trdprc3 之前的最后倒数第三笔交易价格或价值。
+
+trdprc4 之前的最后倒数第四笔交易价格或价值。
+
+trdprc5 之前的最后倒数第五笔交易价格或价值。
+
+netchng1 最新交易价格或价值与调整后的历史收盘价或结算价之间的差额。 涨跌了多少
+
+high1 最高价
+
+low1 最低价
+
+currency 工具报价的货币。
+
+tradeDate 字段 TRDPRC_1 中值的日期。
+
+trdtim1 TRDPRC_1 中值的时间
+
+openPrice 19 开盘价
+
+yesterdayClosingPrice 昨收（今天收盘了，那么yesterdayClosingPrice = trdprc1）
+
+bid bid
+
+ask ask
+
+acvol1 根据市场惯例交易的股票、手数或合约的累计数量
+
+bidSize bid数量
+
+askSize ask数量
+
+yield 每股股息以价格的百分比表示
+
+peratio 股票价格与每股收益的比率
+
+exdivdate 该股票将在没有股息（除息）的情况下交易的日期
+
+pctchng 与历史收盘价相比，最新交易价格或价值的百分比变化。 涨跌幅
+
+open_bid 开标价
+
+openAsk 公开要价
+
+closeBid 昨天的最后出价。
+
+closeAsk 昨天的最后询价。
+
+uplimit 今日交易的交易上限。
+
+lolimit 今日交易的交易下限。
+
+tradeNumber 交易数量
+
+tradeSum 单个交易日所有交易成交额总和
+
+trdvol1 trdprc1的对应交易量
+
+saltim 最后一次交易的时间，以秒为单位 - 最后一次更新字段 TRDPRC_1 (FID 6) 的时间。
+
+isinCode 国际安全识别码 (ISIN)。
+
+mnemonic 包含用作助记符的字母数字股票或（街道）股票代码，以识别在特定执行地点公开交易的公司股票。
+
+opnAuc 开盘价
+
+intAuc 盘中竞价
+
+clsAuc 收盘价
+
+opnaucvol 开盘拍卖量
+
+intAucvol 盘中拍卖量
+
+vwapVol 加权平均价的成交量
+
+vwapTn 加权平均价的成交量
+
+code 股票代码
+
+vwap 均价
+
+dsplyNmll 中文名字（目前只有港股才有数据）
+
+status 股票状态， [<1>] = 正常市场或未分配 | 54 [SUS] = 暂停 | 59 [TH] = 交易暂停 | 150 [SPC] = 特殊条款 | 174【COM】=合规-待退市股票
+
+statusInfo 暂停原因
+
+tradeStatus 交易状态，交易暂停或暂停， 1 [N] = 正常 | 2 [H] = 暂停 | 3 [S] = 暂停
+
+updateDate 这个 是 tradeDate、trdtim1字段组合
