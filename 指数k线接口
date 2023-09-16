@@ -1,0 +1,45 @@
+示例：
+https://kline.pinkapi.net/kline/get-index-Kline?token={token}&pid=169&period=PT1M&startTime=1691676063000&endTime=1691762463000&market=US
+
+参数：
+
+pid：
+
+1175152 道琼斯股票价格平均指数
+
+1175153 标准普尔500指数
+
+169 道琼斯工业平均指数
+
+166 标准普尔500指数
+
+14958 纳斯达克综合指数
+
+44336 标准普尔500 VIX指数
+
+179 香港恒生指数
+
+period：
+
+PT1M：一分钟
+
+PT5M： 5分钟
+
+PT15M ： 15分钟
+
+PT30M： 30分钟
+
+PT1H ： 1小时
+
+PT5H： 5小时候
+
+P1D ：一天
+
+P1W ： 一周
+
+P1M： 一月
+market：市场， Us
+
+startTime： 开始查询
+
+endTime： 结束时间
